@@ -1,0 +1,9 @@
+body{
+    background: url(medias/p2.jpg) center;
+
+}
+footer{
+    position: absolute ;
+    bottom: 0;
+    width: 100%;
+}

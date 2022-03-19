@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css     ">
+       <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>Citée de l'inovation</title>
+</head>
+<body style="background: url(Medias/p4.jpg) center fixed">
+    <!-- navbar-->
+    <nav class="green">
+      <div class="container">
+          <div class="nav-wrapper">
+              <img style="width:50px;
+              height:50px; margin-top:0.75vh;" src="https://www.ansi.ne/wp-content/uploads/2020/10/busi_icon04.png" class="brand-logo"></a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+              <ul class="right hide-on-med-and-down">
+                 <li><a href="index.html">Accueil </a></li>
+                <li><a href="Propos.html"> Qui sommes-nous ? </a></li>
+                <li><a href="Galerie.html">Galerie</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="block.html">Evenements </a></li>
+              </ul>
+            </div>
+      </div>
+    </nav>
+  
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Accueil</a></li>
+                <li><a href="Propos.html"> Qui sommes-nous ? </a></li>
+                <li><a href="Galerie.html">Galerie</a></li>
+                <li><a href="projets.html">Projets</a></li>
+                <li><a href="block.html">Evenements </a></li>
+    </ul>
+<div class="container-fluid white center align green-text" style="padding: 30px; opacity: 0.5">
+<h1> 
+    Suivez Nous
+</h1>
+        <a href="#" class="green-text">
+            <i class="fa-brands fa-facebook-f" style="font-size: 70px; margin-left: 20px; padding: 20px;"></i>
+        </a>
+        <a href="#" class="green-text">
+        <i class="fa-brands fa-instagram" style="font-size: 70px; margin-left: 20px; padding: 20px;"></i>
+    </a>
+    <a href="#" class="green-text">        
+        <i class="fa-brands fa-twitter" style="font-size: 70px; margin-left: 20px; padding: 20px;"></i>
+    </a>
+        <a href="#" class="green-text">
+        <i class="fa-brands fa-linkedin-in" style="font-size: 70px; margin-left: 20px; padding: 20px;"></i>
+    </a>
+</div>
+<div class="container-fluid white  center align green-text" style="margin-top: 25%;  opacity:0.9">
+ <div class="container">
+    <h1>
+        Contactez-nous  
+    </h1>
+    <h6>
+       Vous etes proteurs de projets, ou tout simplement interessés par la technologie ? Nous sommes là pour vous ! N'hésitez pas à nous envoyer vos questions. Nous serrions impatients et ravis de vous repondre.  
+    </h6>
+
+    <div class="row">
+        <form class="col s12">
+          <div class="row">
+            <div class="input-field col s6">
+              <input  id="first_name" type="text" class="validate">
+              <label for="first_name"> Nom</label>
+            </div>
+            <div class="input-field col s6">
+              <input id="last_name" type="text" class="validate">
+              <label for="last_name">Prenom</label>
+            </div>
+          </div>
+         
+         
+          <div class="row">
+            <div class="input-field col s12">
+              <input id="email" type="email" class="validate">
+              <label for="email">Email</label>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col s12">
+          
+              <div class="input-field">
+                <input id="email" type="email" class="validate">
+                <label for="email">Message</label>
+               
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+      <button class="btn green" style="margin: 20px;">Envoyez</button>
+ </div>
+</div>
+<footer class="page-footer green">
+  <div class="container">
+    <div class="row">
+      <div class="col">
+    <ul>
+      <li><a class="grey-text text-lighten-4" href="index.html">Accueil</a></li>
+      <li><a class="grey-text text-lighten-4" href="Propos.html"> Qui sommes-nous ?</li>
+      <li><a class="grey-text text-lighten-4" href="Galerie.html">Galerie</a></li>  
+    </ul>
+      </div>
+      <div class="col  right">
+        <ul  >
+         
+          <li><a class="grey-text text-lighten-4" href="projets.html">Projets</a></li>
+          <li><a class="grey-text text-lighten-4" href="block.html">Evenements </a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <div class="container">
+    © Copyright Codeloccol2022  
+    <a href="404.html" class="grey-text text-lighten-4 right" >Team Philosophe</a>
+    </div>
+  </div>
+   <!--  Scripts-->
+   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+   <!-- Option 1: Bootstrap Bundle with Popper -->
+   
+   <!-- Compiled and minified JavaScript -->
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   <script>
+        $(document).ready(function(){
+       $('.sidenav').sidenav();
+     });
+   
+      // Or with jQuery
+   
+      $(document).ready(function(){
+       $('.slider').slider({
+           indicators:false
+    
+       });
+     });
+           
+   </script>
+   
+   </body>
+   </html>
